@@ -1,7 +1,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import ReviewCard from "@/src/components/ReviewCard";
+import ReviewCard from "@/src/components/Reviewcard";
 
 const mockReview = {
   name: "Shelly Russel",

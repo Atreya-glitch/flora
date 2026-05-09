@@ -1,5 +1,5 @@
 import Image from "next/image";
-import SectionHeading from "@/src/components/SectionHeading";
+import SectionHeading from "@/src/components/sectionHeading";
 
 export default function TrendingPage() {
   return (

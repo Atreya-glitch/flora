@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import SectionHeading from "@/src/components/SectionHeading";
+import SectionHeading from "@/src/components/sectionHeading";
 
 const plants = [
   {

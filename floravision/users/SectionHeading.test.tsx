@@ -1,7 +1,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import SectionHeading from "@/src/components/SectionHeading";
+import SectionHeading from "@/src/components/sectionHeading";
 
 describe("SectionHeading", () => {
   it("renders children text", () => {

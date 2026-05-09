@@ -1,5 +1,5 @@
-import ReviewCard from "@/src/components/ReviewCard";
-import SectionHeading from "@/src/components/SectionHeading";
+import ReviewCard from "@/src/components/Reviewcard";
+import SectionHeading from "@/src/components/sectionHeading";
 
 const reviews = [
   {

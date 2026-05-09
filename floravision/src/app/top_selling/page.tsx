@@ -1,5 +1,5 @@
-import PlantCard from "@/src/components/PlantCard";
-import SectionHeading from "@/src/components/SectionHeading";
+import PlantCard from "@/src/components/Plantcard";
+import SectionHeading from "@/src/components/sectionHeading";
 
 const topSellingPlants = [
   {

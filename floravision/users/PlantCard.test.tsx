@@ -1,7 +1,7 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import PlantCard from "@/src/components/PlantCard";
+import PlantCard from "@/src/components/Plantcard";
 
 const mockPlant = {
   name: "Monstera",
