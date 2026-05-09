@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --background: #1a1f1a;
+  --foreground: #f0f0e8;
+  --bg-primary: #1a1f1a;
+  --bg-card: #242a24;
+  --bg-card-hover: #2c332c;
+  --text-primary: #f0f0e8;
+  --text-secondary: #9ea89e;
+  --accent-green: #7aad5a;
+  --border-subtle: rgba(255, 255, 255, 0.07);
+  --price-text: #e8e8d8;
+}
+
+@theme {
+  --color-bg-primary: var(--bg-primary);
+  --color-bg-card: var(--bg-card);
+  --color-bg-card-hover: var(--bg-card-hover);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-accent-green: var(--accent-green);
+  --color-border-subtle: var(--border-subtle);
+  --color-price-text: var(--price-text);
+  
+  --font-serif: "DM Serif Display", serif;
+  --font-sans: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
